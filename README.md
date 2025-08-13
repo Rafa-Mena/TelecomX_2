@@ -85,9 +85,24 @@ Identificados con **SHAP** y análisis de correlación:
 ---
 
 ## 📦 Requerimientos
-Instalar las dependencias con:
-```bash
-pip install -r requirements.txt
+# Manipulación y análisis de datos
+pandas
+numpy
+
+# Visualización
+matplotlib
+seaborn
+
+# Machine Learning y preprocesamiento
+scikit-learn
+imbalanced-learn   # Para SMOTE
+
+# Interpretabilidad
+shap
+
+# Entorno de trabajo (opcional, si usas notebooks)
+jupyter
+
 
 
 
